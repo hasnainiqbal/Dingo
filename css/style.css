@@ -1,0 +1,277 @@
+nav ul li a:hover {
+	color: red;
+}
+.slider {
+	background-image: url('../img/header-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+a:hover {
+	text-decoration: none;
+}
+.slider-txt {
+	text-align: center;
+	padding: 284px 0 230px;	
+	color: white;
+}
+.slider-txt h1 {
+	font-size: 80px;
+	font-weight: bold;
+}
+span {
+	color: #f2c926;
+}
+.slider-txt p {
+	font-size: 22px;
+}
+.slider-txt a {
+	background-color: #f0c30e;
+	padding: 12px 17px;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 16px;
+	width: 140px;
+	color: #284c56;
+	margin-top: 86px;
+}
+.slider-txt a:hover {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+.about {
+	padding-top: 115px;
+	padding-bottom: 100px;
+}
+.about-txt {
+	text-align: center;
+	color: #1c424d;
+	margin-bottom: 56px;
+}
+.about-txt p {
+	color: #5b777f;
+}
+.border {
+	width: 60px;
+	height: 3px;
+	background-color: #f3ca27;
+	margin: 33px auto;
+}
+.txt-area {
+	margin-left: 50px;
+	margin-bottom: 44px;
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.row ul li  {
+	display: inline-block;
+}	
+.row ul li i {
+	color: #f3ca27;
+	margin-right: 6px;
+}
+#service {
+	background-color: #032e3a;
+	padding: 116px 80px 90px;
+}
+#service h2 {
+	color: white;
+}
+#service p {
+	color: white;
+}
+#service-txt {
+	color: white;
+	text-align: center;
+}
+#service h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+#service i {
+	color: #f3ca27;
+	background-color: #032934;
+	padding: 20px 26px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	transition: all 0.20s ease-in-out;
+}
+#service i:hover {
+	background-color: #f3ca27;
+	color: #032934;
+}
+.portfolio {
+	padding-top: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Panel tabs*/
+
+
+.panel-tabs > li > a {
+    color: black;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-primary {
+	border: none;
+	padding-bottom: 100px;
+}
+.panel-heading {
+	border: none;
+}
+.panel-primary>.panel-heading {
+	background-color: transparent;
+    border-color: none;
+}
+.tab-content img {
+	margin-bottom: 36px;
+}
+
+
+.icons {
+	background-image: url('../img/statistics-bg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 110px 0;
+	line-height: 50px;
+}
+.icons h4 {
+	color: #fdd835;
+	font-size: 40px;
+}
+.icons p {
+		
+}
+.team {
+	text-align: center;
+	color: #1c424d;
+	padding-top: 110px;
+	padding-bottom: 90px;
+}
+.team i {
+	color: #f3ca27;
+	margin-right: 2%;	
+}
+.team i:hover {
+	color: #032731;
+	transition: all 0.40s ease-in-out;
+	cursor: pointer;
+}
+.second p {
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+strong {
+	font-weight: bold;
+}
+.contact i {
+	color: #f3ca27;
+	margin-bottom: 30px;
+}
+.contact {
+	text-align: center;
+	color: #032731;
+}
+.contact h2 {
+	margin:40px 0 50px;
+}
+.contact2 {
+	padding: 0 -10px;
+}
+input {
+	width: 100%;
+	height: 32px;
+	padding: 13px 13px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+    margin-bottom: 15px;
+}
+input:last-child {
+	margin-right: 0px !important;
+}
+textarea {
+	width: 100%;
+	height: 92px;
+	padding: 13px 13px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+.contact {
+	padding: 115px 0;
+}
+.contact a {
+	background-color: #032731;
+	color: white;
+	padding: 11px 15px 7px;
+	display: inline-block;
+	border: 2px solid #f3ca27;
+	border-radius: 3px;
+	width: 130px;
+	margin: 33px 0 90px;
+}
+.contact a:hover {
+	text-decoration: none;
+
+}
+.contact ul li {
+	display: inline-block;
+	margin-right: 42px;
+}
+.contact ul li i:hover {
+	color: #032731;	
+	transition:all 0.40s ease-in-out;
+	cursor: pointer;
+}
+footer {
+	color: white;
+	background-color: #032731;
+	padding: 28px 0;
+	text-align: center;
+}
+/**********************NAV BAR*****************************/
+.navbar-default{
+	background-color: transparent;
+	border: transparent;
+}
+.navbar-default.scrolled{
+	    background-color: #f3ca27;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #f1c825;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+} 
+.navbar-default .navbar-nav>li>a  {
+	color: white;
+}
+.navbar-default .navbar-nav li.active  {
+	background-color: transparent;
+}
